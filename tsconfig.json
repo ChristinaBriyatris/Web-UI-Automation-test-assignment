@@ -1,0 +1,18 @@
+{
+  "chromeWebSecurity": false,
+  "compilerOptions": {
+      "resolveJsonModule" : true,
+      "types": [
+          "cypress",
+          "node",
+          "cypress-xpath"
+      ],
+      "baseUrl": "./"
+  },
+  "include": [
+      "**/*.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
